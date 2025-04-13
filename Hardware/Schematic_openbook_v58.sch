@@ -352,32 +352,6 @@
 <text x="-2.54" y="1.905" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.54" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="SOT95P280X145-6N" library_version="31">
-<description>&lt;b&gt;SOT23-6(ESDA6V1-5SC6Y)&lt;/b&gt;&lt;br&gt;
-</description>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-2.1" y1="1.775" x2="2.1" y2="1.775" width="0.05" layer="51"/>
-<wire x1="2.1" y1="1.775" x2="2.1" y2="-1.775" width="0.05" layer="51"/>
-<wire x1="2.1" y1="-1.775" x2="-2.1" y2="-1.775" width="0.05" layer="51"/>
-<wire x1="-2.1" y1="-1.775" x2="-2.1" y2="1.775" width="0.05" layer="51"/>
-<wire x1="-0.812" y1="1.462" x2="0.812" y2="1.462" width="0.1" layer="51"/>
-<wire x1="0.812" y1="1.462" x2="0.812" y2="-1.462" width="0.1" layer="51"/>
-<wire x1="0.812" y1="-1.462" x2="-0.812" y2="-1.462" width="0.1" layer="51"/>
-<wire x1="-0.812" y1="-1.462" x2="-0.812" y2="1.462" width="0.1" layer="51"/>
-<wire x1="-0.812" y1="0.512" x2="0.138" y2="1.462" width="0.1" layer="51"/>
-<wire x1="-0.3" y1="1.462" x2="0.3" y2="1.462" width="0.2" layer="21"/>
-<wire x1="0.3" y1="1.462" x2="0.3" y2="-1.462" width="0.2" layer="21"/>
-<wire x1="0.3" y1="-1.462" x2="-0.3" y2="-1.462" width="0.2" layer="21"/>
-<wire x1="-0.3" y1="-1.462" x2="-0.3" y2="1.462" width="0.2" layer="21"/>
-<wire x1="-1.85" y1="1.6" x2="-0.65" y2="1.6" width="0.2" layer="21"/>
-<smd name="1" x="-1.25" y="0.95" dx="1.2" dy="0.6" layer="1"/>
-<smd name="2" x="-1.25" y="0" dx="1.2" dy="0.6" layer="1"/>
-<smd name="3" x="-1.25" y="-0.95" dx="1.2" dy="0.6" layer="1"/>
-<smd name="4" x="1.25" y="-0.95" dx="1.2" dy="0.6" layer="1"/>
-<smd name="5" x="1.25" y="0" dx="1.2" dy="0.6" layer="1"/>
-<smd name="6" x="1.25" y="0.95" dx="1.2" dy="0.6" layer="1"/>
-</package>
 <package name="SAMACSYS_PARTS_USB4110GFA" library_version="31">
 <description>&lt;b&gt;USB4110-GF-A-1&lt;/b&gt;&lt;br&gt;</description>
 <wire x1="-4.47" y1="-3.677" x2="4.47" y2="-3.677" width="0.2" layer="51"/>
@@ -959,6 +933,32 @@ Source: http://www.osram.convergy.de/ ... Lb_q993.pdf</description>
 <smd name="1" x="-0.75" y="0" dx="0.97" dy="0.94" layer="1"/>
 <smd name="2" x="0.75" y="0" dx="0.97" dy="0.94" layer="1"/>
 </package>
+<package name="SOT95P280X145-6N" library_version="9">
+<description>&lt;b&gt;SOT23-6(ESDA6V1-5SC6Y)&lt;/b&gt;&lt;br&gt;
+</description>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2.1" y1="1.775" x2="2.1" y2="1.775" width="0.05" layer="51"/>
+<wire x1="2.1" y1="1.775" x2="2.1" y2="-1.775" width="0.05" layer="51"/>
+<wire x1="2.1" y1="-1.775" x2="-2.1" y2="-1.775" width="0.05" layer="51"/>
+<wire x1="-2.1" y1="-1.775" x2="-2.1" y2="1.775" width="0.05" layer="51"/>
+<wire x1="-0.812" y1="1.462" x2="0.812" y2="1.462" width="0.1" layer="51"/>
+<wire x1="0.812" y1="1.462" x2="0.812" y2="-1.462" width="0.1" layer="51"/>
+<wire x1="0.812" y1="-1.462" x2="-0.812" y2="-1.462" width="0.1" layer="51"/>
+<wire x1="-0.812" y1="-1.462" x2="-0.812" y2="1.462" width="0.1" layer="51"/>
+<wire x1="-0.812" y1="0.512" x2="0.138" y2="1.462" width="0.1" layer="51"/>
+<wire x1="-0.3" y1="1.462" x2="0.3" y2="1.462" width="0.2" layer="21"/>
+<wire x1="0.3" y1="1.462" x2="0.3" y2="-1.462" width="0.2" layer="21"/>
+<wire x1="0.3" y1="-1.462" x2="-0.3" y2="-1.462" width="0.2" layer="21"/>
+<wire x1="-0.3" y1="-1.462" x2="-0.3" y2="1.462" width="0.2" layer="21"/>
+<wire x1="-1.85" y1="1.6" x2="-0.65" y2="1.6" width="0.2" layer="21"/>
+<smd name="1" x="-1.25" y="0.95" dx="1.2" dy="0.6" layer="1"/>
+<smd name="2" x="-1.25" y="0" dx="1.2" dy="0.6" layer="1"/>
+<smd name="3" x="-1.25" y="-0.95" dx="1.2" dy="0.6" layer="1"/>
+<smd name="4" x="1.25" y="-0.95" dx="1.2" dy="0.6" layer="1"/>
+<smd name="5" x="1.25" y="0" dx="1.2" dy="0.6" layer="1"/>
+<smd name="6" x="1.25" y="0.95" dx="1.2" dy="0.6" layer="1"/>
+</package>
 </packages>
 <symbols>
 <symbol name="112A-TAAR-R03_ATTEND" library_version="1">
@@ -1177,20 +1177,6 @@ Switches electrical signals</description>
 <text x="1.143" y="0.4826" size="1.778" layer="95">&gt;NAME</text>
 <text x="-0.5842" y="0.4064" size="1.27" layer="94" rot="R90">+</text>
 <text x="1.143" y="-4.5974" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
-<symbol name="USBLC6-2SC6Y" library_version="9">
-<wire x1="5.08" y1="2.54" x2="27.94" y2="2.54" width="0.254" layer="94"/>
-<wire x1="27.94" y1="-7.62" x2="27.94" y2="2.54" width="0.254" layer="94"/>
-<wire x1="27.94" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
-<text x="29.21" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="29.21" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="I/O1_1" x="0" y="0" length="middle"/>
-<pin name="GND" x="0" y="-2.54" length="middle"/>
-<pin name="I/O2_1" x="0" y="-5.08" length="middle"/>
-<pin name="I/O1_2" x="33.02" y="0" length="middle" rot="R180"/>
-<pin name="VBUS" x="33.02" y="-2.54" length="middle" rot="R180"/>
-<pin name="I/O2_2" x="33.02" y="-5.08" length="middle" rot="R180"/>
 </symbol>
 <symbol name="SAMACSYS_PARTS_USB4110-GF-A" library_version="1">
 <wire x1="5.08" y1="2.54" x2="20.32" y2="2.54" width="0.254" layer="94"/>
@@ -1519,6 +1505,20 @@ Switches electrical signals</description>
 <text x="357.505" y="5.08" size="2.54" layer="94">&gt;SHEET</text>
 <text x="343.916" y="4.953" size="2.54" layer="94">Sheet:</text>
 <frame x1="0" y1="0" x2="387.35" y2="260.35" columns="8" rows="5" layer="94"/>
+</symbol>
+<symbol name="USBLC6-2SC6Y" library_version="9">
+<wire x1="5.08" y1="2.54" x2="27.94" y2="2.54" width="0.254" layer="94"/>
+<wire x1="27.94" y1="-7.62" x2="27.94" y2="2.54" width="0.254" layer="94"/>
+<wire x1="27.94" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<text x="29.21" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="29.21" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="I/O1_1" x="0" y="0" length="middle"/>
+<pin name="GND" x="0" y="-2.54" length="middle"/>
+<pin name="I/O2_1" x="0" y="-5.08" length="middle"/>
+<pin name="I/O1_2" x="33.02" y="0" length="middle" rot="R180"/>
+<pin name="VBUS" x="33.02" y="-2.54" length="middle" rot="R180"/>
+<pin name="I/O2_2" x="33.02" y="-5.08" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1869,37 +1869,6 @@ Source: &lt;a href="https://www.torexsemi.com/file/xc6220/XC6220.pdf"&gt; Datash
 <technology name="">
 <attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="USBLC6-2SC6Y" prefix="D" library_version="37">
-<description>&lt;b&gt;Low Cap. ESD Protection Auto SOT-23-6 STMicroelectronics USBLC6-2SC6Y, Dual Uni-Directional TVS Diode Array, 6-Pin SOT-23&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.pdf"&gt; Datasheet &lt;/a&gt;  &lt;a href="https://pricing.snapeda.com/parts/USBLC6-2SC6Y/STMicroelectronics/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="USBLC6-2SC6Y" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOT95P280X145-6N">
-<connects>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="I/O1_1" pad="1"/>
-<connect gate="G$1" pin="I/O1_2" pad="6"/>
-<connect gate="G$1" pin="I/O2_1" pad="3"/>
-<connect gate="G$1" pin="I/O2_2" pad="4"/>
-<connect gate="G$1" pin="VBUS" pad="5"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="In Stock"/>
-<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/USBLC6-2SC6Y/STMicroelectronics/view-part/?ref=eda"/>
-<attribute name="DESCRIPTION" value=" 17V Clamp 5A (8/20µs) Ipp Tvs Diode Surface Mount SOT-23-6 "/>
-<attribute name="MF" value="STMicroelectronics"/>
-<attribute name="MP" value="USBLC6-2SC6Y"/>
-<attribute name="PACKAGE" value="SOT-23-6 STMicroelectronics"/>
-<attribute name="PRICE" value="None"/>
-<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/USBLC6-2SC6Y/STMicroelectronics/view-part/?ref=snap"/>
 </technology>
 </technologies>
 </device>
@@ -2444,6 +2413,37 @@ DIN A3, landscape with location and doc. field</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="USBLC6-2SC6Y" prefix="D" library_version="64">
+<description>&lt;b&gt;Low Cap. ESD Protection Auto SOT-23-6 STMicroelectronics USBLC6-2SC6Y, Dual Uni-Directional TVS Diode Array, 6-Pin SOT-23&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.pdf"&gt; Datasheet &lt;/a&gt;  &lt;a href="https://pricing.snapeda.com/parts/USBLC6-2SC6Y/STMicroelectronics/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="USBLC6-2SC6Y" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT95P280X145-6N">
+<connects>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="I/O1_1" pad="1"/>
+<connect gate="G$1" pin="I/O1_2" pad="6"/>
+<connect gate="G$1" pin="I/O2_1" pad="3"/>
+<connect gate="G$1" pin="I/O2_2" pad="4"/>
+<connect gate="G$1" pin="VBUS" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/USBLC6-2SC6Y/STMicroelectronics/view-part/?ref=eda"/>
+<attribute name="DESCRIPTION" value=" 17V Clamp 5A (8/20µs) Ipp Tvs Diode Surface Mount SOT-23-6 "/>
+<attribute name="MF" value="STMicroelectronics"/>
+<attribute name="MP" value="USBLC6-2SC6Y"/>
+<attribute name="PACKAGE" value="SOT-23-6 STMicroelectronics"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/USBLC6-2SC6Y/STMicroelectronics/view-part/?ref=snap"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -2486,7 +2486,6 @@ DIN A3, landscape with location and doc. field</description>
 <part name="C1_BAT2" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.nluxkPTkTROf9DroZlz4KA" deviceset="EAGLE-LTSPICE_C" device="C0402" value="4.7uF"/>
 <part name="C3" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.nluxkPTkTROf9DroZlz4KA" deviceset="RCL_CPOL-EU" device="CT3528" value="100uF TANT"/>
 <part name="SUPPLY11" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.nluxkPTkTROf9DroZlz4KA" deviceset="3V3-CIRCLE" device="" value="3V3"/>
-<part name="D1" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.nluxkPTkTROf9DroZlz4KA" deviceset="USBLC6-2SC6Y" device=""/>
 <part name="GND7" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.nluxkPTkTROf9DroZlz4KA" deviceset="GND" device=""/>
 <part name="C4_USB" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.nluxkPTkTROf9DroZlz4KA" deviceset="EAGLE-LTSPICE_C" device="C0402" value="100nF"/>
 <part name="C5_USB" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.nluxkPTkTROf9DroZlz4KA" deviceset="EAGLE-LTSPICE_C" device="C0402" value="4.7uF"/>
@@ -2503,7 +2502,7 @@ DIN A3, landscape with location and doc. field</description>
 <part name="GND14" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.nluxkPTkTROf9DroZlz4KA" deviceset="GND" device=""/>
 <part name="GND15" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.nluxkPTkTROf9DroZlz4KA" deviceset="GND" device=""/>
 <part name="R2" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.nluxkPTkTROf9DroZlz4KA" deviceset="ESP32_WROVER_EAGLE-LTSPICE_R" device="R0402" value="2.2"/>
-<part name="SJ1" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.nluxkPTkTROf9DroZlz4KA" deviceset="SJ" device=""/>
+<part name="SJ1" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.nluxkPTkTROf9DroZlz4KA" deviceset="SJ" device="" value="NA"/>
 <part name="C7" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.nluxkPTkTROf9DroZlz4KA" deviceset="EAGLE-LTSPICE_C" device="C0402" value="10uF"/>
 <part name="C4" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.nluxkPTkTROf9DroZlz4KA" deviceset="EAGLE-LTSPICE_C" device="C0402" value="4.7uF/25V"/>
 <part name="D3" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.nluxkPTkTROf9DroZlz4KA" deviceset="MBR0530" device=""/>
@@ -2524,7 +2523,7 @@ DIN A3, landscape with location and doc. field</description>
 <part name="GND22" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.nluxkPTkTROf9DroZlz4KA" deviceset="GND" device=""/>
 <part name="R2_BAT" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.nluxkPTkTROf9DroZlz4KA" deviceset="ESP32_WROVER_EAGLE-LTSPICE_R" device="R0402" value="2K"/>
 <part name="R1_BAT" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.nluxkPTkTROf9DroZlz4KA" deviceset="ESP32_WROVER_EAGLE-LTSPICE_R" device="R0402" value="200"/>
-<part name="CHG_LED" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.nluxkPTkTROf9DroZlz4KA" deviceset="ADAFRUIT_LED" device="CHIP-LED0603"/>
+<part name="CHG_LED" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.nluxkPTkTROf9DroZlz4KA" deviceset="ADAFRUIT_LED" device="CHIP-LED0603" value="NA"/>
 <part name="U10" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.nluxkPTkTROf9DroZlz4KA" deviceset="ESP32_WROVER_SPARKFUN-IC-POWER_MCP73831" device="" value="MCP73831"/>
 <part name="J1" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.nluxkPTkTROf9DroZlz4KA" deviceset="FH34SRJ-24S-0.5SH_99_" device=""/>
 <part name="GND23" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.nluxkPTkTROf9DroZlz4KA" deviceset="GND" device=""/>
@@ -2619,35 +2618,71 @@ DIN A3, landscape with location and doc. field</description>
 <part name="D8" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.nluxkPTkTROf9DroZlz4KA" deviceset="PGB1010603MR" device=""/>
 <part name="GND38" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.nluxkPTkTROf9DroZlz4KA" deviceset="GND" device=""/>
 <part name="SUPPLY22" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.nluxkPTkTROf9DroZlz4KA" deviceset="3V3-CIRCLE" device="" value="3V3"/>
-<part name="FRAME1" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.nluxkPTkTROf9DroZlz4KA" deviceset="ESP32_WROVER_FRAMES_A3L-LOC" device=""/>
+<part name="FRAME1" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.nluxkPTkTROf9DroZlz4KA" deviceset="ESP32_WROVER_FRAMES_A3L-LOC" device="" value="NA"/>
+<part name="D1" library="DeskAssistant v19 v1" library_urn="urn:adsk.wipprod:fs.file:vf.nluxkPTkTROf9DroZlz4KA" deviceset="USBLC6-2SC6Y" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="-22.86" y="-27.94" size="1.778" layer="91" rot="R90">DMG2305UX-7</text>
-<text x="-101.6" y="-88.9" size="1.778" layer="91">SD0805S020S1R0</text>
-<text x="-157.48" y="124.46" size="2.54" layer="91">USB C Connector &amp; ESD protection</text>
-<text x="-7.62" y="124.46" size="2.54" layer="91">LDO Voltage Regulator</text>
-<text x="114.3" y="124.46" size="2.54" layer="91">SD Card</text>
-<text x="114.3" y="83.82" size="2.54" layer="91">ESP32 C6</text>
-<text x="15.24" y="55.88" size="2.54" layer="91">Li-Po Battery Charging Controller</text>
-<text x="-96.52" y="53.34" size="2.54" layer="91">E-Paper Driver Circuit
+<text x="-22.86" y="-27.94" size="1.778" layer="97" rot="R90">DMG2305UX-7</text>
+<text x="-101.6" y="-88.9" size="1.778" layer="97">SD0805S020S1R0</text>
+<text x="-157.48" y="124.46" size="2.54" layer="97">USB C Connector &amp; ESD protection</text>
+<text x="-7.62" y="124.46" size="2.54" layer="97">LDO Voltage Regulator</text>
+<text x="114.3" y="124.46" size="2.54" layer="97">SD Card</text>
+<text x="114.3" y="83.82" size="2.54" layer="97">ESP32 C6</text>
+<text x="15.24" y="55.88" size="2.54" layer="97">Li-Po Battery Charging Controller</text>
+<text x="-96.52" y="53.34" size="2.54" layer="97">E-Paper Driver Circuit
 </text>
-<text x="-157.48" y="55.88" size="2.54" layer="91">Display Type Selector</text>
-<text x="-157.48" y="12.7" size="2.54" layer="91">E-Paper Display Header</text>
-<text x="-53.34" y="12.7" size="2.54" layer="91">EPD Power</text>
-<text x="-15.24" y="12.7" size="2.54" layer="91">Environmental Sensor BME688</text>
-<text x="55.88" y="10.16" size="2.54" layer="91">Voltage Supervisor + Reset &amp;
+<text x="-157.48" y="55.88" size="2.54" layer="97">Display Type Selector</text>
+<text x="-157.48" y="12.7" size="2.54" layer="97">E-Paper Display Header</text>
+<text x="-53.34" y="12.7" size="2.54" layer="97">EPD Power</text>
+<text x="-15.24" y="12.7" size="2.54" layer="97">Environmental Sensor BME688</text>
+<text x="55.88" y="10.16" size="2.54" layer="97">Voltage Supervisor + Reset &amp;
 Boot / IO Button</text>
-<text x="162.56" y="12.7" size="2.54" layer="91">Battery Charge Level</text>
-<text x="-157.48" y="-63.5" size="2.54" layer="91">RTC Module DS3231SN</text>
-<text x="-25.4" y="-63.5" size="2.54" layer="91">Test Pads</text>
-<text x="20.32" y="-68.58" size="2.54" layer="91">Qwiic /
+<text x="162.56" y="12.7" size="2.54" layer="97">Battery Charge Level</text>
+<text x="-157.48" y="-63.5" size="2.54" layer="97">RTC Module DS3231SN</text>
+<text x="-25.4" y="-63.5" size="2.54" layer="97">Test Pads</text>
+<text x="20.32" y="-68.58" size="2.54" layer="97">Qwiic /
 Stemma QT</text>
-<text x="58.42" y="-66.04" size="2.54" layer="91">SPI ESD Protection Lines</text>
-<text x="137.16" y="-63.5" size="2.54" layer="91">External NOR Flash</text>
-<text x="180.34" y="-106.68" size="2.54" layer="91">drawn by: George Cosma</text>
-<text x="126.492" y="-115.316" size="3.81" layer="91">OpenBook Schematic</text>
+<text x="58.42" y="-66.04" size="2.54" layer="97">SPI ESD Protection Lines</text>
+<text x="137.16" y="-63.5" size="2.54" layer="97">External NOR Flash</text>
+<text x="180.34" y="-106.68" size="2.54" layer="97">drawn by: George Cosma</text>
+<text x="126.492" y="-115.316" size="3.81" layer="97">OpenBook Schematic</text>
+<wire x1="-27.94" y1="-123.214490625" x2="-27.94" y2="-59.436" width="0.1524" layer="97"/>
+<wire x1="-27.94" y1="-59.436" x2="-55.88" y2="-59.436" width="0.1524" layer="97"/>
+<wire x1="-55.88" y1="-59.436" x2="-158.591690625" y2="-59.436" width="0.1524" layer="97"/>
+<wire x1="-27.94" y1="-59.436" x2="-17.78" y2="-59.436" width="0.1524" layer="97"/>
+<wire x1="-17.78" y1="-59.436" x2="18.36193125" y2="-59.436" width="0.1524" layer="97"/>
+<wire x1="18.36193125" y1="-59.436" x2="55.004115625" y2="-59.436" width="0.1524" layer="97"/>
+<wire x1="55.004115625" y1="-59.436" x2="134.55638125" y2="-59.436" width="0.1524" layer="97"/>
+<wire x1="134.55638125" y1="-59.436" x2="160.22978125" y2="-59.436" width="0.1524" layer="97"/>
+<wire x1="160.22978125" y1="-59.436" x2="220.98" y2="-59.436" width="0.1524" layer="97"/>
+<wire x1="18.36193125" y1="-121.92" x2="18.36193125" y2="-59.436" width="0.1524" layer="97"/>
+<wire x1="55.004115625" y1="-121.92" x2="55.004115625" y2="-59.436" width="0.1524" layer="97"/>
+<wire x1="134.55638125" y1="-102.952503125" x2="134.55638125" y2="-59.436" width="0.1524" layer="97"/>
+<wire x1="-55.88" y1="-59.436" x2="-55.88" y2="17.78" width="0.1524" layer="97"/>
+<wire x1="-55.88" y1="17.78" x2="-17.78" y2="17.78" width="0.1524" layer="97"/>
+<wire x1="-17.78" y1="17.78" x2="-17.78" y2="-59.436" width="0.1524" layer="97"/>
+<wire x1="55.004115625" y1="-59.436" x2="55.004115625" y2="17.78" width="0.1524" layer="97"/>
+<wire x1="55.004115625" y1="17.78" x2="11.230725" y2="17.78" width="0.1524" layer="97"/>
+<wire x1="11.230725" y1="17.78" x2="-17.78" y2="17.78" width="0.1524" layer="97"/>
+<wire x1="55.004115625" y1="17.78" x2="111.76" y2="17.78" width="0.1524" layer="97"/>
+<wire x1="111.76" y1="17.78" x2="160.22978125" y2="17.78" width="0.1524" layer="97"/>
+<wire x1="160.22978125" y1="17.78" x2="160.22978125" y2="-59.436" width="0.1524" layer="97"/>
+<wire x1="160.22978125" y1="17.78" x2="220.98" y2="17.78" width="0.1524" layer="97"/>
+<wire x1="-55.88" y1="17.78" x2="-101.6" y2="17.78" width="0.1524" layer="97"/>
+<wire x1="-101.6" y1="17.78" x2="-158.864878125" y2="17.78" width="0.1524" layer="97"/>
+<wire x1="-158.8359" y1="60.96" x2="-101.6" y2="60.96" width="0.1524" layer="97"/>
+<wire x1="-101.6" y1="60.96" x2="-10.16" y2="60.96" width="0.1524" layer="97"/>
+<wire x1="-10.16" y1="60.96" x2="11.230725" y2="60.96" width="0.1524" layer="97"/>
+<wire x1="11.230725" y1="60.96" x2="111.76" y2="60.96" width="0.1524" layer="97"/>
+<wire x1="111.76" y1="17.78" x2="111.76" y2="60.96" width="0.1524" layer="97"/>
+<wire x1="11.230725" y1="17.78" x2="11.230725" y2="60.96" width="0.1524" layer="97"/>
+<wire x1="-101.6" y1="17.78" x2="-101.6" y2="60.96" width="0.1524" layer="97"/>
+<wire x1="111.76" y1="88.9" x2="111.76" y2="60.96" width="0.1524" layer="97"/>
+<wire x1="111.76" y1="88.9" x2="223.52" y2="88.9" width="0.1524" layer="97"/>
+<wire x1="111.76" y1="88.9" x2="111.76" y2="129.54" width="0.1524" layer="97"/>
+<wire x1="-10.16" y1="60.96" x2="-10.16" y2="129.54" width="0.1524" layer="97"/>
 </plain>
 <instances>
 <instance part="J4" gate="G$1" x="139.7" y="114.3" smashed="yes">
@@ -2756,10 +2791,6 @@ Stemma QT</text>
 <instance part="SUPPLY11" gate="G$1" x="104.14" y="93.98" smashed="yes">
 <attribute name="VALUE" x="104.013" y="97.155" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="D1" gate="G$1" x="-63.5" y="116.84" smashed="yes">
-<attribute name="NAME" x="-57.15" y="124.46" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-57.15" y="121.92" size="1.778" layer="96" align="center-left"/>
-</instance>
 <instance part="GND7" gate="1" x="-20.32" y="114.3" smashed="yes" rot="R90">
 <attribute name="VALUE" x="-17.78" y="111.76" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -2822,7 +2853,6 @@ Stemma QT</text>
 </instance>
 <instance part="SJ1" gate="1" x="-137.16" y="45.72" smashed="yes">
 <attribute name="NAME" x="-139.7" y="48.26" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-139.7" y="41.91" size="1.778" layer="96"/>
 </instance>
 <instance part="C7" gate="G$1" x="-91.44" y="35.56" smashed="yes">
 <attribute name="NAME" x="-89.916" y="35.941" size="1.778" layer="95"/>
@@ -2907,7 +2937,6 @@ Stemma QT</text>
 </instance>
 <instance part="CHG_LED" gate="G$1" x="40.64" y="35.56" smashed="yes">
 <attribute name="NAME" x="44.196" y="30.988" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="46.355" y="30.988" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="U10" gate="G$1" x="63.5" y="45.72" smashed="yes">
 <attribute name="NAME" x="55.88" y="38.608" size="1.778" layer="95"/>
@@ -3292,6 +3321,10 @@ Stemma QT</text>
 <attribute name="LAST_DATE_TIME" x="181.61" y="-116.84" size="2.286" layer="94"/>
 <attribute name="SHEET" x="194.945" y="-121.92" size="2.54" layer="94"/>
 </instance>
+<instance part="D1" gate="G$1" x="-30.48" y="111.76" smashed="yes" rot="R180">
+<attribute name="NAME" x="-55.118" y="123.444" size="1.778" layer="95" rot="R180" align="center-left"/>
+<attribute name="VALUE" x="-40.132" y="120.904" size="1.778" layer="96" rot="R180" align="center-left"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -3391,7 +3424,7 @@ Stemma QT</text>
 <segment>
 <wire x1="-30.48" y1="114.3" x2="-22.86" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="GND7" gate="1" pin="GND"/>
-<pinref part="D1" gate="G$1" pin="VBUS"/>
+<pinref part="D1" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <wire x1="-48.26" y1="83.82" x2="-48.26" y2="78.74" width="0.1524" layer="91"/>
@@ -4126,7 +4159,7 @@ Stemma QT</text>
 <wire x1="-25.4" y1="116.84" x2="-25.4" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="-25.4" y1="119.38" x2="-22.86" y2="119.38" width="0.1524" layer="91"/>
 <label x="-22.86" y="119.38" size="1.27" layer="95" xref="yes"/>
-<pinref part="D1" gate="G$1" pin="I/O1_2"/>
+<pinref part="D1" gate="G$1" pin="I/O2_1"/>
 </segment>
 </net>
 <net name="USB_D+" class="0">
@@ -4140,7 +4173,7 @@ Stemma QT</text>
 <wire x1="-25.4" y1="111.76" x2="-25.4" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="-25.4" y1="109.22" x2="-22.86" y2="109.22" width="0.1524" layer="91"/>
 <label x="-22.86" y="109.22" size="1.27" layer="95" xref="yes"/>
-<pinref part="D1" gate="G$1" pin="I/O2_2"/>
+<pinref part="D1" gate="G$1" pin="I/O1_1"/>
 </segment>
 </net>
 <net name="IO/CHANGE" class="0">
@@ -4393,9 +4426,9 @@ Stemma QT</text>
 <pinref part="D2" gate="G$0" pin="ANODE"/>
 </segment>
 <segment>
-<wire x1="-63.5" y1="114.3" x2="-66.04" y2="114.3" width="0.1524" layer="91"/>
-<label x="-66.04" y="114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="D1" gate="G$1" pin="GND"/>
+<wire x1="-63.5" y1="114.3" x2="-68.58" y2="114.3" width="0.1524" layer="91"/>
+<label x="-68.58" y="114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="D1" gate="G$1" pin="VBUS"/>
 </segment>
 <segment>
 <wire x1="-48.26" y1="91.44" x2="-48.26" y2="96.52" width="0.1524" layer="91"/>
@@ -4454,9 +4487,9 @@ Stemma QT</text>
 </net>
 <net name="DN" class="0">
 <segment>
-<wire x1="-63.5" y1="116.84" x2="-66.04" y2="116.84" width="0.1524" layer="91"/>
-<label x="-66.04" y="116.84" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="D1" gate="G$1" pin="I/O1_1"/>
+<wire x1="-63.5" y1="116.84" x2="-68.58" y2="116.84" width="0.1524" layer="91"/>
+<label x="-68.58" y="116.84" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="D1" gate="G$1" pin="I/O2_2"/>
 </segment>
 <segment>
 <wire x1="-119.38" y1="88.9" x2="-121.92" y2="88.9" width="0.1524" layer="91"/>
@@ -4471,9 +4504,9 @@ Stemma QT</text>
 </net>
 <net name="DP" class="0">
 <segment>
-<wire x1="-63.5" y1="111.76" x2="-66.04" y2="111.76" width="0.1524" layer="91"/>
-<label x="-66.04" y="111.76" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="D1" gate="G$1" pin="I/O2_1"/>
+<wire x1="-63.5" y1="111.76" x2="-71.12" y2="111.76" width="0.1524" layer="91"/>
+<label x="-71.12" y="111.76" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="D1" gate="G$1" pin="I/O1_2"/>
 </segment>
 <segment>
 <wire x1="-119.38" y1="91.44" x2="-121.92" y2="91.44" width="0.1524" layer="91"/>
@@ -4802,66 +4835,24 @@ Stemma QT</text>
 <pinref part="J2" gate="G$1" pin="A5"/>
 </segment>
 </net>
-<net name="FRAME_EDGE" class="0">
-<segment>
-<wire x1="-158.8359" y1="60.96" x2="-101.6" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="-101.6" y1="60.96" x2="-10.16" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="-10.16" y1="60.96" x2="11.230725" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="11.230725" y1="60.96" x2="111.76" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="60.96" x2="111.76" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="88.9" x2="111.76" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="-10.16" y1="129.54" x2="-10.16" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="88.9" x2="220.98" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="17.78" x2="160.22978125" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="160.22978125" y1="17.78" x2="111.76" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="17.78" x2="55.004115625" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="55.004115625" y1="17.78" x2="11.230725" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="11.230725" y1="17.78" x2="-17.78" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="-17.78" y1="17.78" x2="-55.88" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="-55.88" y1="17.78" x2="-101.6" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="-101.6" y1="17.78" x2="-158.864878125" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="60.96" x2="111.76" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="11.230725" y1="60.96" x2="11.230725" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="-101.6" y1="17.78" x2="-101.6" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="-158.591690625" y1="-59.436" x2="-55.88" y2="-59.436" width="0.1524" layer="91"/>
-<wire x1="-55.88" y1="-59.436" x2="-27.94" y2="-59.436" width="0.1524" layer="91"/>
-<wire x1="-27.94" y1="-59.436" x2="-17.78" y2="-59.436" width="0.1524" layer="91"/>
-<wire x1="-17.78" y1="-59.436" x2="18.36193125" y2="-59.436" width="0.1524" layer="91"/>
-<wire x1="18.36193125" y1="-59.436" x2="55.004115625" y2="-59.436" width="0.1524" layer="91"/>
-<wire x1="55.004115625" y1="-59.436" x2="134.55638125" y2="-59.436" width="0.1524" layer="91"/>
-<wire x1="134.55638125" y1="-59.436" x2="160.22978125" y2="-59.436" width="0.1524" layer="91"/>
-<wire x1="160.22978125" y1="-59.436" x2="220.98" y2="-59.436" width="0.1524" layer="91"/>
-<wire x1="-55.88" y1="17.78" x2="-55.88" y2="-59.436" width="0.1524" layer="91"/>
-<wire x1="-17.78" y1="17.78" x2="-17.78" y2="-59.436" width="0.1524" layer="91"/>
-<wire x1="55.004115625" y1="-59.436" x2="55.004115625" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="160.22978125" y1="-59.436" x2="160.22978125" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="-27.94" y1="-59.436" x2="-27.94" y2="-123.214490625" width="0.1524" layer="91"/>
-<wire x1="18.36193125" y1="-59.436" x2="18.36193125" y2="-121.92" width="0.1524" layer="91"/>
-<junction x="-101.6" y="60.96"/>
-<junction x="-10.16" y="60.96"/>
-<junction x="11.230725" y="60.96"/>
-<junction x="111.76" y="60.96"/>
-<junction x="111.76" y="88.9"/>
-<junction x="160.22978125" y="17.78"/>
-<junction x="111.76" y="17.78"/>
-<junction x="55.004115625" y="17.78"/>
-<junction x="11.230725" y="17.78"/>
-<junction x="-17.78" y="17.78"/>
-<junction x="-55.88" y="17.78"/>
-<junction x="-101.6" y="17.78"/>
-<junction x="-55.88" y="-59.436"/>
-<junction x="-27.94" y="-59.436"/>
-<junction x="-17.78" y="-59.436"/>
-<junction x="18.36193125" y="-59.436"/>
-<junction x="55.004115625" y="-59.436"/>
-<junction x="160.22978125" y="-59.436"/>
-<wire x1="55.004115625" y1="-59.436" x2="55.004115625" y2="-121.92" width="0.1524" layer="91"/>
-<wire x1="134.55638125" y1="-59.436" x2="134.55638125" y2="-102.952503125" width="0.1524" layer="91"/>
-</segment>
-</net>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,208.28,-7.62,U4,CTG,GND,,,"/>
+<approved hash="104,1,208.28,-10.16,U4,CELL,VBAT,,,"/>
+<approved hash="104,1,208.28,-12.7,U4,VDD,VBAT,,,"/>
+<approved hash="104,1,208.28,-15.24,U4,EP,GND,,,"/>
+<approved hash="104,1,195.58,-71.12,U1,VCC,3V3,,,"/>
+<approved hash="104,1,53.34,48.26,U10,VIN,VBUS,,,"/>
+<approved hash="104,1,73.66,43.18,U10,VSS,GND,,,"/>
+<approved hash="104,1,22.86,-2.54,SENSOR2,VDD,I2C_PW,,,"/>
+<approved hash="104,1,22.86,0,SENSOR2,VDDIO,I2C_PW,,,"/>
+<approved hash="104,1,-114.3,-88.9,U3,VBAT,VRTC,,,"/>
+<approved hash="104,1,-114.3,-86.36,U3,VCC,3V3,,,"/>
+<approved hash="104,1,38.1,-91.44,J3,1,GND,,,"/>
+<approved hash="104,1,38.1,-93.98,J3,2,3V3,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
